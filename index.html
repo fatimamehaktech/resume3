@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: black;
+        }
+        #head{
+            /* width: 1340px; */
+            /* height: 630px; */
+            background-color: black;
+            margin: auto;
+            position: absolute;
+            top: 30px;
+            color: rgb(250, 250, 250);
+        }
+        #main{
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+            position: absolute;
+            color: white;
+        }
+        #img{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 700px;
+            height: 630px;
+        }
+        #her{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 25px;
+            font-family: cursive;
+            text-decoration: underline;
+            color: rgb(194, 172, 172);
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="her">Mehak Here</h1> -->
+    <img src="img1.jpg" alt="wxwx" id="img">
+    <h1 id="head">Registered Now</h1>
+    <div id="main">
+        <form action="registration.php" method="POST">
+            Name: <input type="text" name="stuname"> <br><br>
+            Father Name: <input type="text" name="fathername"> <br><br>
+            <!-- Email: <input type="email" name="stuemail"> <br><br> -->
+            <!-- Password: <input type="password" name="stupass"> <br><br> -->
+            Address: <input type="text" name="addre"> <br><br>
+            <!-- <input type="submit" value="Registered" name="signup" > -->
+             <button><a href="thanks.html"> Registered</a></button>
+            <!-- <a href="login.php">SignIn</a> -->
+             
+        </form>
+    </div>
+</body>
+</html>
